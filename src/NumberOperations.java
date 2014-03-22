@@ -3,9 +3,9 @@
  */
 public class NumberOperations
 {
+    private static NumberOperations operations = new NumberOperations();
     public static void perform(char operation, int operandX, int operandY)
     {
-        NumberOperations operations = new NumberOperations();
         switch (operation)
         {
             case '+':
