@@ -1,5 +1,5 @@
 /**
- * Created by Sriharsha on 22-03-2014.
+ * NumberPyramid
  */
 public class NumberPyramid
 {
