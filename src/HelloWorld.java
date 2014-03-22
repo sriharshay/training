@@ -12,5 +12,6 @@ public class HelloWorld
         NumberOperations.perform('*', 67, 45);
         NumberOperations.perform('+', 67, 45);
         NumberOperations.perform('-', 67, 45);
+        NumberOperations.perform('%', 67, 45);
     }
 }
