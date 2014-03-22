@@ -29,10 +29,6 @@ public class NumberPyramid
                 System.out.print(" ");
             }
             printNumbers(i, count);
-            for (int j = 1; j <= count - i; j++)
-            {
-                System.out.print(" ");
-            }
             System.out.println();
         }
     }
