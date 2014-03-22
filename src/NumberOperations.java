@@ -18,7 +18,8 @@ public class NumberOperations
                 operations.performMultiplication(operandX, operandY);
                 break;
             default:
-                throw new IllegalArgumentException("Operation '" + operation + "' not supported");
+                System.out.println("Operation '" + operation + "' not supported");
+                break;
         }
 
     }
