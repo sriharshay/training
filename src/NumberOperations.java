@@ -30,7 +30,6 @@ public class NumberOperations
     private static void performSubtraction(int operandX, int operandY)
     {
         System.out.println(operandX + " - " + operandY + " = " + (operandX - operandY));
-
     }
 
     private static void performAddition(int operandX, int operandY)
