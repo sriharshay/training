@@ -9,5 +9,8 @@ public class HelloWorld
         NumberTriangle triangle = new NumberTriangle(6);
         triangle.printTriangle();
         NumberPyramid.printPyramid(12);
+        NumberOperations.perform('*', 67, 45);
+        NumberOperations.perform('+', 67, 45);
+        NumberOperations.perform('-', 67, 45);
     }
 }
